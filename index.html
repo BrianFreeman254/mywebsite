@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Freeman's Poetry and Science</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Brian Freeman's Poetry and Science Hub</h1>
+        <div id="clock"></div>
+    </header>
+
+    <main>
+        <section id="poetry">
+            <h2>My Poetry</h2>
+            <ul>
+                <li><a href="poems/poem1.pdf" download>Poem 1</a></li>
+                <li><a href="poems/poem2.pdf" download>Poem 2</a></li>
+            </ul>
+            <input type="text" id="pinInput" placeholder="Enter PIN">
+            <button onclick="checkPin()">Submit</button>
+            <div id="exclusiveContent" style="display:none;">
+                <h3>Exclusive Poems</h3>
+                <p>Here are your special poems!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Support me at: <a href="https://wa.me/254746415264">+254746415264</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
